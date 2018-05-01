@@ -1,12 +1,13 @@
 package hyperv
 
 import (
-	"github.com/flynnhandley/psremote/hvremote"
 	"fmt"
 	"log"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/nimerix/psremote/hvremote"
 
 	"github.com/hashicorp/packer/common/powershell"
 )
